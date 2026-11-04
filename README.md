@@ -8,7 +8,7 @@ My work asks a practical question: how can AI make human judgment easier to exam
 
 ## Main Work
 
-### [Ouroboros](https://github.com/Q00/ouroboros) · 6k+ stars
+### [Ouroboros](https://github.com/Q00/ouroboros) · ⭐ 6.3k
 
 I am a core maintainer of Ouroboros, an open-source agent OS for AI-assisted software development. I work on specifying tasks, coordinating agent execution, and preserving evidence that people can use to evaluate the results.
 
@@ -34,13 +34,15 @@ An exploratory simulation of fictional human perspectives. It examines how the s
 
 I also contribute fixes and regression tests across the open-source ecosystem:
 
-- **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code):** provider cancellation and stream cleanup, CLI argument handling, and session statistics. ([GitLab request controls](https://github.com/Yeachan-Heo/gajae-code/pull/7366), [Ollama reader cleanup](https://github.com/Yeachan-Heo/gajae-code/pull/7368), [CLI arguments](https://github.com/Yeachan-Heo/gajae-code/pull/7367), [merged contributions](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged))
-- **[OpenCodex](https://github.com/lidge-jun/opencodex), [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode), and [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex):** portable test batching, configuration validation, and terminal-control sanitization. ([OpenCodex](https://github.com/lidge-jun/opencodex/pull/5456), [OMC](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071), [OMX](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694))
-- **[SQLFluff](https://github.com/sqlfluff/sqlfluff):** Hive `GROUP BY` support for trailing `WITH ROLLUP` and `WITH CUBE`. ([Merged PR](https://github.com/sqlfluff/sqlfluff/pull/8974))
-- **[ThinkJS](https://github.com/thinkjs/thinkjs):** fixes for [request-validation method leakage](https://github.com/thinkjs/thinkjs/pull/1792) and [shared router defaults](https://github.com/thinkjs/thinkjs/pull/1794).
-- **[user-scanner](https://github.com/kaifcodec/user-scanner):** consistent validator resolution between library and CLI modes. ([Merged PR](https://github.com/kaifcodec/user-scanner/pull/772))
+- **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code)** · ⭐ 3.1k: provider cancellation and stream cleanup, CLI argument handling, and session statistics. ([GitLab request controls](https://github.com/Yeachan-Heo/gajae-code/pull/7366), [Ollama reader cleanup](https://github.com/Yeachan-Heo/gajae-code/pull/7368), [CLI arguments](https://github.com/Yeachan-Heo/gajae-code/pull/7367), [merged contributions](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged))
+- **[Oh My ClaudeCode (OMC)](https://github.com/Yeachan-Heo/oh-my-claudecode)** · ⭐ 40.6k: validation of context-threshold configuration, preventing malformed overrides from silently taking effect. ([Merged PR](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071))
+- **[Oh My Codex (OMX)](https://github.com/Yeachan-Heo/oh-my-codex)** · ⭐ 33.7k: stripping OSC terminal-control sequences from notification text. ([Merged PR](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694))
+- **[OpenCodex](https://github.com/lidge-jun/opencodex)** · ⭐ 18.2k: portable Bun test batching for macOS environments without GNU `timeout`. ([Merged PR](https://github.com/lidge-jun/opencodex/pull/5456))
+- **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** · ⭐ 10.0k: Hive `GROUP BY` support for trailing `WITH ROLLUP` and `WITH CUBE`. ([Merged PR](https://github.com/sqlfluff/sqlfluff/pull/8974))
+- **[ThinkJS](https://github.com/thinkjs/thinkjs)** · ⭐ 5.3k: fixes for [request-validation method leakage](https://github.com/thinkjs/thinkjs/pull/1792) and [shared router defaults](https://github.com/thinkjs/thinkjs/pull/1794).
+- **[user-scanner](https://github.com/kaifcodec/user-scanner)** · ⭐ 5.6k: consistent validator resolution between library and CLI modes. ([Merged PR](https://github.com/kaifcodec/user-scanner/pull/772))
 
-These examples are merged upstream contributions; release and deployment status may differ.
+Star counts are approximate snapshots from 2026-11-04 and may change. These examples are merged upstream contributions; release and deployment status may differ.
 
 ## How the Projects Connect
 
