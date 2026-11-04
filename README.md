@@ -1,6 +1,6 @@
 # Lee Sang Gyu (이상규)
 
-**Co-founder, Ouro Labs** · **Core Maintainer, Ouroboros** · Hansung University
+**Co-founder, [Ouro Labs](https://ourolabs.vercel.app/)** · **Core Maintainer, Ouroboros** · Hansung University
 
 I build tools and protocols for human–AI collaboration.
 
@@ -29,6 +29,18 @@ An exploratory simulation of fictional human perspectives. It examines how the s
 - **[Pullim](https://github.com/lee3Q/pullim)**: Earlier protocol research, now also an experimental decision-support app. It helps turn a difficult situation into a clearer problem, usable evidence, a provisional decision, and a next action chosen by the person.
 - **[말결 (Malgyeol)](https://github.com/lee3Q/malgyeol)**, with SergioBuilds: Bounded agent-payment infrastructure that connects human intent with policy checks, consent, purchasing, and payment evidence.
 - **[FlashPatch](https://github.com/lee3Q/flashpatch)**, with SergioBuilds: Open-source visual safety QA for detecting potentially hazardous flashing, applying scoped repairs, rerunning checks, and recording the evidence.
+
+## Other Open-source Contributions
+
+I also contribute fixes and regression tests to tools I use:
+
+- **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code):** provider cancellation and stream cleanup, CLI argument handling, and session statistics. ([GitLab request controls](https://github.com/Yeachan-Heo/gajae-code/pull/7366), [Ollama reader cleanup](https://github.com/Yeachan-Heo/gajae-code/pull/7368), [CLI arguments](https://github.com/Yeachan-Heo/gajae-code/pull/7367), [merged contributions](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged))
+- **OpenCodex, Oh My ClaudeCode, and Oh My Codex:** portable test batching, configuration validation, and terminal-control sanitization. ([OpenCodex](https://github.com/lidge-jun/opencodex/pull/5456), [OMC](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071), [OMX](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694))
+- **[SQLFluff](https://github.com/sqlfluff/sqlfluff/pull/8974):** Hive `GROUP BY` support for trailing `WITH ROLLUP` and `WITH CUBE`.
+- **ThinkJS:** fixes for [request-validation method leakage](https://github.com/thinkjs/thinkjs/pull/1792) and [shared router defaults](https://github.com/thinkjs/thinkjs/pull/1794).
+- **[user-scanner](https://github.com/kaifcodec/user-scanner/pull/772):** consistent validator resolution between library and CLI modes.
+
+These examples are merged upstream contributions; release and deployment status may differ.
 
 ## How the Projects Connect
 
