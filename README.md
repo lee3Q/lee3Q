@@ -35,10 +35,10 @@ An exploratory simulation of fictional human perspectives. It examines how the s
 I also contribute fixes and regression tests across the open-source ecosystem:
 
 - **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code):** provider cancellation and stream cleanup, CLI argument handling, and session statistics. ([GitLab request controls](https://github.com/Yeachan-Heo/gajae-code/pull/7366), [Ollama reader cleanup](https://github.com/Yeachan-Heo/gajae-code/pull/7368), [CLI arguments](https://github.com/Yeachan-Heo/gajae-code/pull/7367), [merged contributions](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged))
-- **OpenCodex, Oh My ClaudeCode, and Oh My Codex:** portable test batching, configuration validation, and terminal-control sanitization. ([OpenCodex](https://github.com/lidge-jun/opencodex/pull/5456), [OMC](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071), [OMX](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694))
-- **[SQLFluff](https://github.com/sqlfluff/sqlfluff/pull/8974):** Hive `GROUP BY` support for trailing `WITH ROLLUP` and `WITH CUBE`.
-- **ThinkJS:** fixes for [request-validation method leakage](https://github.com/thinkjs/thinkjs/pull/1792) and [shared router defaults](https://github.com/thinkjs/thinkjs/pull/1794).
-- **[user-scanner](https://github.com/kaifcodec/user-scanner/pull/772):** consistent validator resolution between library and CLI modes.
+- **[OpenCodex](https://github.com/lidge-jun/opencodex), [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode), and [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex):** portable test batching, configuration validation, and terminal-control sanitization. ([OpenCodex](https://github.com/lidge-jun/opencodex/pull/5456), [OMC](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071), [OMX](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694))
+- **[SQLFluff](https://github.com/sqlfluff/sqlfluff):** Hive `GROUP BY` support for trailing `WITH ROLLUP` and `WITH CUBE`. ([Merged PR](https://github.com/sqlfluff/sqlfluff/pull/8974))
+- **[ThinkJS](https://github.com/thinkjs/thinkjs):** fixes for [request-validation method leakage](https://github.com/thinkjs/thinkjs/pull/1792) and [shared router defaults](https://github.com/thinkjs/thinkjs/pull/1794).
+- **[user-scanner](https://github.com/kaifcodec/user-scanner):** consistent validator resolution between library and CLI modes. ([Merged PR](https://github.com/kaifcodec/user-scanner/pull/772))
 
 These examples are merged upstream contributions; release and deployment status may differ.
 
