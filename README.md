@@ -8,7 +8,7 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(53_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
-[![Upstream OSS](https://img.shields.io/badge/Open_Source-95_Merged_PRs_Across_12_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+-user%3Alee3Q&type=pullrequests)
+[![Upstream OSS](https://img.shields.io/badge/Open_Source-104_Merged_PRs_Across_13_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+-user%3Alee3Q&type=pullrequests)
 <!-- AUTO-BADGES:END -->
 
 ---
@@ -105,6 +105,7 @@ Beyond my own projects and **Ouroboros**, I contribute bug fixes, parser/protoco
 | **[buku](https://github.com/jarun/buku)** | ⭐ 7.3k | `Python / SQLite` | Escaping SQL `LIKE` wildcards (`_` and `%`) in `--deep` and tag search queries ([#915](https://github.com/jarun/buku/pull/915)) |
 | **[Trafilatura](https://github.com/adbar/trafilatura)** | ⭐ 7.1k | `Python` | Guarding baseline JSON extraction against Discourse topics whose `posts` field is not a list ([#1088](https://github.com/adbar/trafilatura/pull/1088)) |
 | **[user-scanner](https://github.com/kaifcodec/user-scanner)** | ⭐ 5.6k | `Python` | Resolving non-stem validator names in library mode and rejecting malformed open CLI ranges missing an end bound ([#772](https://github.com/kaifcodec/user-scanner/pull/772), [#773](https://github.com/kaifcodec/user-scanner/pull/773)) |
+| **[lancet](https://github.com/duke-git/lancet)** | ⭐ 5.3k | `Go` | **9 merged PRs** including [#419](https://github.com/duke-git/lancet/pull/419), [#421](https://github.com/duke-git/lancet/pull/421), [#422](https://github.com/duke-git/lancet/pull/422), [#423](https://github.com/duke-git/lancet/pull/423), [#424](https://github.com/duke-git/lancet/pull/424) ([All 9 merged PRs](https://github.com/duke-git/lancet/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)) |
 | **[ThinkJS](https://github.com/thinkjs/thinkjs)** | ⭐ 5.3k | `JavaScript` | Fixing `requiredWith` validator method leakage, `escapeHtml` `&quot;` entity encoding, and shared router default mutation ([#1792](https://github.com/thinkjs/thinkjs/pull/1792), [#1793](https://github.com/thinkjs/thinkjs/pull/1793), [#1794](https://github.com/thinkjs/thinkjs/pull/1794)) |
 | **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code)** | ⭐ 3.1k | `TypeScript` | **24 merged PRs** across provider stream/abort controls, SSE/EditorConfig/Markdown parsers, CLI/TUI handling, and session analytics ([All 24 merged PRs](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)) |
 
