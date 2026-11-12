@@ -47,7 +47,7 @@ CURATED_REPOS: dict[str, dict[str, str]] = {
     "lz4/lz4": {
         "display": "LZ4",
         "stack": "C",
-        "summary": "Making `lz4cli` `--stdout` and `--to-stdout` flags consistently enable pass-through mode like `-c`",
+        "summary": "Aligning pass-through behavior for `--stdout`/`--to-stdout` with `-c`, and extra-operand handling for `--force`/`--no-force` with `-f`",
     },
     "sqlfluff/sqlfluff": {
         "display": "SQLFluff",
@@ -213,14 +213,14 @@ def build_sections(token: str | None) -> tuple[str, str, str]:
         reverse=True,
     )
 
-    total_public_repos = 1 + len(upstream_repos)
+    total_public_repos = len(by_repo)
 
     # 1. Badges block
     badges_block = "\n".join(
         [
             "[![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)",
             f"[![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_({ouroboros_count}_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3A{USERNAME}+is%3Amerged)",
-            f"[![Upstream OSS](https://img.shields.io/badge/Open_Source-{total_external_prs}_Merged_PRs_Across_{total_public_repos}_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3A{USERNAME}+is%3Amerged+-user%3A{USERNAME}&type=pullrequests)",
+            f"[![Upstream OSS](https://img.shields.io/badge/Open_Source-{total_external_prs}_Merged_PRs_Across_{total_public_repos}_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3A{USERNAME}+is%3Amerged+is%3Apublic+-user%3A{USERNAME}&type=pullrequests)",
         ]
     )
 
