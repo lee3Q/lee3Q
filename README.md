@@ -16,7 +16,7 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 ## Main Work
 
 <!-- AUTO-OUROBOROS:START -->
-### [Ouroboros](https://github.com/Q00/ouroboros) · ⭐ 6.3k — *Core Maintainer*
+### [Ouroboros](https://github.com/Q00/ouroboros) · ⭐ 6.4k — *Core Maintainer*
 
 **Open-source Agent OS for Specification-First AI Software Development**
 
