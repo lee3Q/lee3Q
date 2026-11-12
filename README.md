@@ -8,7 +8,7 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(53_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
-[![Upstream OSS](https://img.shields.io/badge/Open_Source-112_Merged_PRs_Across_13_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+-user%3Alee3Q&type=pullrequests)
+[![Upstream OSS](https://img.shields.io/badge/Open_Source-112_Merged_PRs_Across_14_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
 <!-- AUTO-BADGES:END -->
 
 ---
@@ -100,7 +100,7 @@ Beyond my own projects and **Ouroboros**, I contribute bug fixes, parser/protoco
 | **[Oh My Codex (OMX)](https://github.com/Yeachan-Heo/oh-my-codex)** | ⭐ 33.8k | `TypeScript` | Stripping OSC terminal-control sequences from notification text and surfacing resolved config paths in `doctor` ([#3691](https://github.com/Yeachan-Heo/oh-my-codex/pull/3691), [#3693](https://github.com/Yeachan-Heo/oh-my-codex/pull/3693), [#3694](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694)) |
 | **[OpenCodex](https://github.com/lidge-jun/opencodex)** | ⭐ 18.4k | `TypeScript / Bun` | Portable Bun test batch execution for macOS environments without GNU `timeout` ([#5456](https://github.com/lidge-jun/opencodex/pull/5456)) |
 | **[Pillow](https://github.com/python-pillow/Pillow)** | ⭐ 14.0k | `Python / C` | Raising `SyntaxError` when a SPIDER image within a stack is opened directly ([#10425](https://github.com/python-pillow/Pillow/pull/10425)) |
-| **[LZ4](https://github.com/lz4/lz4)** | ⭐ 12.8k | `C` | Making `lz4cli` `--stdout` and `--to-stdout` flags consistently enable pass-through mode like `-c` ([#2062](https://github.com/lz4/lz4/pull/2062), [#2075](https://github.com/lz4/lz4/pull/2075)) |
+| **[LZ4](https://github.com/lz4/lz4)** | ⭐ 12.8k | `C` | Aligning pass-through behavior for `--stdout`/`--to-stdout` with `-c`, and extra-operand handling for `--force`/`--no-force` with `-f` ([#2062](https://github.com/lz4/lz4/pull/2062), [#2075](https://github.com/lz4/lz4/pull/2075)) |
 | **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** | ⭐ 10.0k | `Python` | Hive dialect `GROUP BY` grammar support for trailing `WITH ROLLUP` and `WITH CUBE` clauses ([#8974](https://github.com/sqlfluff/sqlfluff/pull/8974)) |
 | **[buku](https://github.com/jarun/buku)** | ⭐ 7.3k | `Python / SQLite` | Escaping SQL `LIKE` wildcards (`_` and `%`) in `--deep` and tag search queries ([#915](https://github.com/jarun/buku/pull/915)) |
 | **[Trafilatura](https://github.com/adbar/trafilatura)** | ⭐ 7.1k | `Python` | Guarding baseline JSON extraction against Discourse topics whose `posts` field is not a list ([#1088](https://github.com/adbar/trafilatura/pull/1088)) |
