@@ -8,7 +8,7 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(57_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
-[![Upstream OSS](https://img.shields.io/badge/Open_Source-117_Merged_PRs_Across_15_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
+[![Upstream OSS](https://img.shields.io/badge/Open_Source-118_Merged_PRs_Across_16_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
 <!-- AUTO-BADGES:END -->
 
 ---
