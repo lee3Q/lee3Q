@@ -8,7 +8,7 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(57_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
-[![Upstream OSS](https://img.shields.io/badge/Open_Source-119_Merged_PRs_Across_17_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
+[![Upstream OSS](https://img.shields.io/badge/Open_Source-121_Merged_PRs_Across_18_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
 <!-- AUTO-BADGES:END -->
 
 ---
@@ -103,7 +103,8 @@ Beyond my own projects and **Ouroboros**, I contribute bug fixes, parser/protoco
 | **[LZ4](https://github.com/lz4/lz4)** | ⭐ 12.8k | `C` | Aligning pass-through behavior for `--stdout`/`--to-stdout` with `-c`, and extra-operand handling for `--force`/`--no-force` with `-f` ([#2062](https://github.com/lz4/lz4/pull/2062), [#2075](https://github.com/lz4/lz4/pull/2075)) |
 | **[dust](https://github.com/bootandy/dust)** | ⭐ 12.7k | `Rust` | Reject min-size values that overflow ([#647](https://github.com/bootandy/dust/pull/647)) |
 | **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** | ⭐ 10.0k | `Python` | Hive dialect `GROUP BY` grammar support for trailing `WITH ROLLUP` and `WITH CUBE` clauses ([#8974](https://github.com/sqlfluff/sqlfluff/pull/8974)) |
-| **[dependency-cruiser](https://github.com/sverweij/dependency-cruiser)** | ⭐ 7.4k | `JavaScript` | No empty first line when the first word is wider than the wrap width ([#1121](https://github.com/sverweij/dependency-cruiser/pull/1121)) |
+| **[javalin](https://github.com/javalin/javalin)** | ⭐ 8.4k | `Kotlin` | Fix NPE in FileUtil.streamToFile for paths without a parent directory ([#2697](https://github.com/javalin/javalin/pull/2697)); Escape all JSON control characters in JsonEscapeUtil ([#2698](https://github.com/javalin/javalin/pull/2698)) |
+| **[dependency-cruiser](https://github.com/sverweij/dependency-cruiser)** | ⭐ 7.5k | `JavaScript` | No empty first line when the first word is wider than the wrap width ([#1121](https://github.com/sverweij/dependency-cruiser/pull/1121)) |
 | **[buku](https://github.com/jarun/buku)** | ⭐ 7.3k | `Python / SQLite` | Escaping SQL `LIKE` wildcards (`_` and `%`) in `--deep` and tag search queries ([#915](https://github.com/jarun/buku/pull/915)) |
 | **[Trafilatura](https://github.com/adbar/trafilatura)** | ⭐ 7.2k | `Python` | Guarding baseline JSON extraction against Discourse topics whose `posts` field is not a list ([#1088](https://github.com/adbar/trafilatura/pull/1088)) |
 | **[user-scanner](https://github.com/kaifcodec/user-scanner)** | ⭐ 5.7k | `Python` | Resolving non-stem validator names in library mode and rejecting malformed open CLI ranges missing an end bound ([#772](https://github.com/kaifcodec/user-scanner/pull/772), [#773](https://github.com/kaifcodec/user-scanner/pull/773)) |
