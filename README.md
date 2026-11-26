@@ -2,9 +2,6 @@
 
 **Co-founder, [Ouro Labs](https://ourolabs.vercel.app/)** · **Core Maintainer, [Ouroboros](https://github.com/Q00/ouroboros)**
 
-I build tools and protocols for human–AI collaboration.  
-My work asks a practical question: *how can AI make human judgment easier to examine, test, and act on while keeping people responsible for their decisions?*
-
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(57_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
@@ -13,7 +10,56 @@ My work asks a practical question: *how can AI make human judgment easier to exa
 
 ---
 
+## I begin with distrust.
+
+I do not believe suffering can be eliminated. I cannot take my own judgment, my will, or the systems I build for granted.
+
+I want to understand why I waver, why the world resists my understanding, and how I can continue to pursue what I believe in despite it.
+
+Literature once gave form to something I could not articulate. I want to create things capable of doing the same.
+
+Research, writing, and software are the means I have chosen.
+
+---
+
 ## Main Work
+
+### [Ouroboros](https://github.com/Q00/ouroboros)
+
+**Core Maintainer · Open-source Agent OS**
+
+<img align="right" src="https://raw.githubusercontent.com/Q00/ouroboros/main/docs/images/ouroboros.png" width="120" alt="Ouroboros logo" />
+
+I see Ouroboros as an architecture built around distrust — not only of the agent, but also of our own understanding of what we want.
+
+A human request is not necessarily a clear intention. An agent's claim is not necessarily evidence. Even a specification can be incomplete.
+
+Ouroboros addresses these problems through questioning, specification, observable execution, evaluation, and evolution.
+
+```mermaid
+flowchart LR
+    I[Interview] --> S[Seed]
+    S --> X[Execute]
+    X --> V[Evaluate]
+    V --> E[Evolve]
+    E -.-> I
+```
+
+<p align="center"><sub>Question the intention. Record the execution. Verify the outcome. Revise what remains unresolved.</sub></p>
+
+My contributions focus on:
+
+- Execution reliability and recovery
+- Evidence integrity and verification
+- Agent runtimes and safety boundaries
+- Intent clarification and drift control
+
+My next direction is to make human intervention meaningful throughout the creative process, allowing people to examine and revise what is being made before the final result.
+
+[Repository](https://github.com/Q00/ouroboros) · [Architecture & Philosophy](https://github.com/Q00/ouroboros/blob/main/docs/how-ouroboros-works.md) · [My merged contributions](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
+
+<details>
+<summary><b>Detailed Ouroboros contributions and current project metrics</b></summary>
 
 <!-- AUTO-OUROBOROS:START -->
 ### [Ouroboros](https://github.com/Q00/ouroboros) · ⭐ 6.4k — *Core Maintainer*
@@ -44,54 +90,63 @@ I am a core maintainer of **Ouroboros** and a co-founder of **[Ouro Labs](https:
 </details>
 <!-- AUTO-OUROBOROS:END -->
 
+</details>
+
+### [OOO Seed](https://ourolabs.vercel.app/seed/)
+
+**Bringing Ouroboros into practice**
+
+A technology is not meaningful simply because its architecture is convincing. It must encounter real people, their problems, and their limitations.
+
+OOO Seed is a hands-on community where professionals, founders, and domain experts explore AI through their own work.
+
+Through Ouro Labs, I help develop a culture in which people question AI outputs, establish their own criteria, build things, and examine what actually works.
+
+For me, Seed is an opportunity to bring these ideas beyond software and into the lives of people.
+
 ---
 
-## Decision & Perspective Projects
+## Personal Research & Projects
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/lee3Q/codbeing">codbeing</a></h4>
-      <p><b>Local-first decision records &amp; prospective judgment analysis</b></p>
-      <p>Records consequential choices as structured <code>DecisionTrace</code> entries (context, options, and judgment basis) and keeps later observations separate from original records via SHA-256 snapshot digests so hindsight never rewrites initial reasoning.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/lee3Q/human30">30p / Human30</a></h4>
-      <p><b>Counterfactual human perspective simulator</b></p>
-      <p>An exploratory simulation of 30 fictional agents across four structural layers (<code>Body</code>, <code>Memory</code>, <code>Identity</code>, and <code>Context</code>). Examines how the same situation branches into different actions as underlying conditions shift.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/lee3Q/pullim">Pullim (풀림)</a></h4>
-      <p><b>Decision-support &amp; action-promise protocol</b></p>
-      <p>Helps turn an unstructured personal concern into separated facts vs. assumptions, a provisional decision, and a concrete next action (<code>Ladder</code> promise) chosen by the user, with local history export.</p>
-    </td>
-  </tr>
-</table>
+### [Codbeing](https://github.com/lee3Q/codbeing)
 
-### Collaborative & Protocol Prototypes
+**Why do I waver?**
 
-- **[말결 (Malgyeol)](https://github.com/lee3Q/malgyeol)** *(with SergioBuilds)* — Bounded agent-payment infrastructure connecting human purchasing intent with policy checks, explicit consent gates, and auditable payment evidence.
-- **[FlashPatch](https://github.com/lee3Q/flashpatch)** *(with SergioBuilds)* — Open-source visual safety QA pipeline for detecting potentially hazardous photosensitive flashing in media, applying scoped repairs, and recording verification evidence.
+An exploration of human judgment, behavior, and the gap between conviction and action.
 
-### How the Projects Connect
+Codbeing separates decisions from hindsight and compares anticipated choices with actual behavior. Its long-term direction is to explore probabilistic models of human decisions under changing psychological, physiological, and environmental conditions.
 
-```text
-  codbeing (Record & revisit judgment without hindsight distortion)
-     │
-     ├──► Pullim (Separate facts from assumptions & commit to a next action)
-     ├──► 30p / Human30 (Explore how choices branch under different conditions)
-     │
-     ▼
-  Ouroboros (Specify intent as a Seed, execute across runtimes, and verify with evidence)
-```
+### [Human30](https://github.com/lee3Q/human30)
 
-Across these projects, I am interested in systems where AI helps people see, challenge, and improve their reasoning while they remain accountable for the final decision.
+**What happens when the conditions change?**
+
+An exploratory simulation of human behavior and collective interaction.
+
+Human30 investigates how fictional individuals with different bodies, memories, identities, and contexts respond to the same situation, and how changing those conditions alters their interactions.
+
+### Companion Core — formerly [Pullim](https://github.com/lee3Q/pullim)
+
+**What remains when everything feels uncertain?**
+
+A project that began with the desire to create something that would remain present when a person could no longer make sense of their own thoughts.
+
+Its direction extends toward persistent agent memory, continuity of interaction, consent, and emotional companionship without surrendering the individual's ability to decide.
+
+### Agent Environment Simulation
+
+*Research direction*
+
+An extension of Codbeing and Human30 into environments where agents interact, negotiate, cooperate, and compete.
+
+I want to investigate how individual decision-making and collective outcomes change under different rules, information constraints, and incentives.
 
 ---
 
 ## Open-Source Contributions
 
-Beyond my own projects and **Ouroboros**, I contribute bug fixes, parser/protocol compliance patches, input-validation guards, and regression tests across open-source projects in **C, Python, TypeScript, JavaScript, and SQL**:
+My engineering work focuses on reliability, verification, runtime behavior, protocol correctness, and software security.
+
+I maintain Ouroboros and contribute to open-source projects across multiple languages and ecosystems.
 
 <!-- AUTO-OSS:START -->
 | Project | Stars | Stack | Merged Contributions |
@@ -136,3 +191,15 @@ Beyond my own projects and **Ouroboros**, I contribute bug fixes, parser/protoco
 
 <sub><i>Merged PR counts and repository star snapshots are synced automatically via GitHub Actions.</i></sub>
 <!-- AUTO-OSS:END -->
+
+[All merged upstream PRs](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
+
+---
+
+## Writing
+
+I write about the human mind, uncertainty, suffering, conviction, and technology.
+
+Writing and software are different ways of examining and expressing the questions I have not resolved.
+
+[LinkedIn](https://www.linkedin.com/in/lee39/)
