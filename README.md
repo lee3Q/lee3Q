@@ -5,7 +5,7 @@
 <!-- AUTO-BADGES:START -->
 [![Ouro Labs](https://img.shields.io/badge/Ouro_Labs-Co--founder-0F172A?style=flat-square)](https://ourolabs.vercel.app/)
 [![Ouroboros](https://img.shields.io/badge/Ouroboros-Core_Maintainer_(57_Merged_PRs)-4338CA?style=flat-square&logo=github&logoColor=white)](https://github.com/Q00/ouroboros/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)
-[![Upstream OSS](https://img.shields.io/badge/Open_Source-122_Merged_PRs_Across_19_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
+[![Upstream OSS](https://img.shields.io/badge/Open_Source-125_Merged_PRs_Across_22_Projects-047857?style=flat-square&logo=git&logoColor=white)](https://github.com/search?q=is%3Apr+author%3Alee3Q+is%3Amerged+is%3Apublic+-user%3Alee3Q&type=pullrequests)
 <!-- AUTO-BADGES:END -->
 
 ---
@@ -154,9 +154,10 @@ I maintain Ouroboros and contribute to open-source projects across multiple lang
 | **[Oh My ClaudeCode (OMC)](https://github.com/Yeachan-Heo/oh-my-claudecode)** | ⭐ 41.1k | `TypeScript` | Preflight context-threshold validation and read-budget env override guards preventing malformed values from silently activating ([#4069](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4069), [#4070](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4070), [#4071](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4071)) |
 | **[Oh My Codex (OMX)](https://github.com/Yeachan-Heo/oh-my-codex)** | ⭐ 33.9k | `TypeScript` | Stripping OSC terminal-control sequences from notification text and surfacing resolved config paths in `doctor` ([#3691](https://github.com/Yeachan-Heo/oh-my-codex/pull/3691), [#3693](https://github.com/Yeachan-Heo/oh-my-codex/pull/3693), [#3694](https://github.com/Yeachan-Heo/oh-my-codex/pull/3694)) |
 | **[OpenCodex](https://github.com/lidge-jun/opencodex)** | ⭐ 18.8k | `TypeScript / Bun` | Portable Bun test batch execution for macOS environments without GNU `timeout` ([#5456](https://github.com/lidge-jun/opencodex/pull/5456)) |
+| **[Dexie.js](https://github.com/dexie/Dexie.js)** | ⭐ 14.7k | `TypeScript` | Pass the depth counter into KeyPaths array elements (fixes #2373) ([#2374](https://github.com/dexie/Dexie.js/pull/2374)) |
 | **[Pillow](https://github.com/python-pillow/Pillow)** | ⭐ 14.0k | `Python / C` | Raising `SyntaxError` when a SPIDER image within a stack is opened directly ([#10425](https://github.com/python-pillow/Pillow/pull/10425)) |
 | **[LZ4](https://github.com/lz4/lz4)** | ⭐ 12.9k | `C` | Aligning pass-through behavior for `--stdout`/`--to-stdout` with `-c`, and extra-operand handling for `--force`/`--no-force` with `-f` ([#2062](https://github.com/lz4/lz4/pull/2062), [#2075](https://github.com/lz4/lz4/pull/2075)) |
-| **[dust](https://github.com/bootandy/dust)** | ⭐ 12.7k | `Rust` | Reject min-size values that overflow ([#647](https://github.com/bootandy/dust/pull/647)) |
+| **[dust](https://github.com/bootandy/dust)** | ⭐ 12.8k | `Rust` | Reject min-size values that overflow ([#647](https://github.com/bootandy/dust/pull/647)) |
 | **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** | ⭐ 10.0k | `Python` | Hive dialect `GROUP BY` grammar support for trailing `WITH ROLLUP` and `WITH CUBE` clauses ([#8974](https://github.com/sqlfluff/sqlfluff/pull/8974)) |
 | **[javalin](https://github.com/javalin/javalin)** | ⭐ 8.4k | `Kotlin` | Fix NPE in FileUtil.streamToFile for paths without a parent directory ([#2697](https://github.com/javalin/javalin/pull/2697)); Escape all JSON control characters in JsonEscapeUtil ([#2698](https://github.com/javalin/javalin/pull/2698)) |
 | **[opencommit](https://github.com/di-sukharev/opencommit)** | ⭐ 7.6k | `JavaScript` | Prioritize changed lines over diff context (#427) ([#611](https://github.com/di-sukharev/opencommit/pull/611)) |
@@ -166,7 +167,9 @@ I maintain Ouroboros and contribute to open-source projects across multiple lang
 | **[user-scanner](https://github.com/kaifcodec/user-scanner)** | ⭐ 5.8k | `Python` | Resolving non-stem validator names in library mode and rejecting malformed open CLI ranges missing an end bound ([#772](https://github.com/kaifcodec/user-scanner/pull/772), [#773](https://github.com/kaifcodec/user-scanner/pull/773)) |
 | **[lancet](https://github.com/duke-git/lancet)** | ⭐ 5.3k | `Go` | **16 merged PRs** including [#413](https://github.com/duke-git/lancet/pull/413), [#414](https://github.com/duke-git/lancet/pull/414), [#415](https://github.com/duke-git/lancet/pull/415), [#416](https://github.com/duke-git/lancet/pull/416), [#417](https://github.com/duke-git/lancet/pull/417) ([All 16 merged PRs](https://github.com/duke-git/lancet/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)) |
 | **[ThinkJS](https://github.com/thinkjs/thinkjs)** | ⭐ 5.3k | `JavaScript` | Fixing `requiredWith` validator method leakage, `escapeHtml` `&quot;` entity encoding, and shared router default mutation ([#1792](https://github.com/thinkjs/thinkjs/pull/1792), [#1793](https://github.com/thinkjs/thinkjs/pull/1793), [#1794](https://github.com/thinkjs/thinkjs/pull/1794)) |
+| **[MiniExcel](https://github.com/mini-software/MiniExcel)** | ⭐ 3.7k | `C#` | Write template sheet elements in schema order ([#1079](https://github.com/mini-software/MiniExcel/pull/1079)) |
 | **[Gajae Code](https://github.com/Yeachan-Heo/gajae-code)** | ⭐ 3.1k | `TypeScript` | **24 merged PRs** across provider stream/abort controls, SSE/EditorConfig/Markdown parsers, CLI/TUI handling, and session analytics ([All 24 merged PRs](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr+author%3Alee3Q+is%3Amerged)) |
+| **[khal](https://github.com/pimutils/khal)** | ⭐ 3.1k | `Python` | Avoid yearless date parsing warnings while preserving parse errors ([#1510](https://github.com/pimutils/khal/pull/1510)) |
 
 <details>
 <summary><b>All 24 merged PRs in Gajae Code</b></summary>
